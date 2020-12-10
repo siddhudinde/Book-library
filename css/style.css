@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.font
+{
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar
+{
+    padding: 15px;
+}
+.navbar-brand 
+{
+    padding-left: 20px;
+}
+.right
+{
+    padding-right: 32px;
+}
+.most-popular
+{
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    background-image: url(https://scene360.com/wp-content/uploads/2015/11/cool-animated-gif-08.gif);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.most-popular1
+{
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    text-shadow: 2px 2px 1px rgb(238, 238, 75);
+}
+.cont
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.cont:hover
+{
+    cursor: pointer;
+    transition: all 1s linear;
+   
+
+}
+.main
+{
+    position: relative;
+    margin: 30px;
+}
+.caro
+{
+    height: 300px;
+    width: 700px;
+    text-shadow: 1px 1px 5px rgb(243, 78, 78);
+    border-radius: 10%;
+}
+.caro-cont
+{
+  background-color: #f3f326;
+}
+.caro-font
+{
+    font-family: 'Sansita Swashed', cursive;
+}
+.foot
+{
+    background-color: rgba(0, 0, 0, 0.815);
+    border: 1px solid wheat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px black;
+   padding: 10px;
+}
+.font1
+{
+    font-family: 'Sansita Swashed', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+.github
+{
+    position: relative;
+    height: 50px;
+    width: 50px;    
+    left: 420px;
+}
+.twitter
+{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 460px;
+}
+.facebbok
+{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: 500px;
+}
+.endfoot
+{
+    height: 250px;
+    font-family: 'Sansita Swashed', cursive;
+    background-color: rgba(0, 0, 0, 0.658);
+    border: 1px solid wheat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 20px black;
+   padding-top: 30px;
+}
